@@ -10,7 +10,7 @@ export class WeatherServiceService {
 
   constructor(private Http: HttpClient) {}
 
-  getWeaterDatas(cityName: string): Observable<any> {
+  getWeatherDatas(cityName: string): Observable<any> {
     return this.Http.get(
       `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&mode=json&appid=${this.apiKey}`,
       {}
