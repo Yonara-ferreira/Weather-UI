@@ -1,27 +1,49 @@
-# WeatherApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+# Weather Forecast App in Angular
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Description
 
-## Code scaffolding
+This project was developed as a hands-on study of the Angular platform. The goal was to create a web application that provides weather forecasts for different cities around the world.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Features
 
-## Build
+# The application has the following features:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- City search by name or zip code;
+- Current, high, and low temperature display;
+- Weather forecast for the next few days;
+- Weather conditions (rain, sun, snow, etc.);
+- Weather icons;
+- Temperature and precipitation graphs.
 
-## Running unit tests
+# Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular 14
+- TypeScript
+- Material Design
+- OpenWeatherMap API
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠 skills
+Javascript, HTML, SCSS, Angular 15v
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Instalação
+
+Instale Weather-UI com npm
+
+# Clone the repository 
+
+```bash
+  git clone https://github.com/Yonara-ferreira/Weather-UI
+```
+# install the project dependencies
+```
+npm install
+````
+# Start the application in development mode
+```
+ng s --o 
+````
+    
